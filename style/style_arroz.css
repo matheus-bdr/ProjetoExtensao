@@ -1,0 +1,233 @@
+body {
+    background: linear-gradient(90deg,  #E0E2E6 0%, #CCC9C0 100%);
+    padding: 0;
+}
+.corForte{
+    color: #AD5F26;
+}
+.corForte2{
+    color: #9C4A31;
+}
+.bgForte{
+  background-color: #AD5F26;
+}
+.matheusDaCruz{
+  Font-family: Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif;
+}
+.matheusDaCruz:hover{
+  font-size: 40px;
+  transition: 0.7s;
+  color: #AD5F26;
+}
+.corFraca{
+    color:  rgb(36, 33, 33);
+}
+
+a {
+    text-decoration: none;
+    color:  rgb(36, 33, 33);
+}
+
+.bgHeader{
+  background-color: #9C4A31;
+  color:  rgb(36, 33, 33);
+  text-decoration: none;
+}
+.bgHeader2{
+  background-color: #9C4A31;
+  color:  #CCC9C0;
+  text-decoration: none;
+}
+.bgFooter{
+  background-color: #2e292a;
+  color:  rgb(36, 33, 33);
+  text-decoration: none;
+}
+.bgFooter2{
+  background-color: black;
+  color:  rgb(36, 33, 33);
+  text-decoration: none;
+}
+.p1 {
+    font-family: Andale Mono, monospace;
+    font-size: 130%;
+}
+
+h1 {
+    font-family: Jazz LET, fantasy;
+}
+
+.h3 {
+    font-family: Jazz LET, fantasy;
+}
+.cardhover:hover{
+  transition:0.7s;
+  color: rgb(36, 33, 33);
+  background-color: black;
+  text-decoration: none;
+  font-size: 20px;
+  
+}
+/* linha do tempo */
+
+ /* linha do tempo */
+.apresentacaoLinhaDoTempo {
+  position: relative;
+  margin: 50px auto;
+  padding: 40px 0;
+  width: 1000px;
+}
+
+.apresentacaoLinhaDoTempo::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background: lightgray;
+}
+
+.apresentacaoLinhaDoTempo ul {
+  margin: 0;
+  padding: 0;
+}
+
+.apresentacaoLinhaDoTempo ul li {
+  list-style: none;
+  position: relative;
+  width: 50%;
+  padding: 20px 40px;
+  box-sizing: border-box;
+}
+
+.apresentacaoLinhaDoTempo ul li:nth-child(odd) {
+  float: left;
+  text-align: right;
+  clear: both;
+}
+
+.apresentacaoLinhaDoTempo ul li:nth-child(even) {
+  float: right;
+  text-align: left;
+  clear: both;
+}
+
+.conteudo {
+  padding-bottom: 20px;
+}
+
+.apresentacaoLinhaDoTempo ul li:nth-child(odd):before {
+  content: "";
+  position: absolute;
+  top: 24px;
+  right: -6px;
+  width: 10px;
+  height: 10px;
+  background: var(--cor-terciaria);
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #9C4A31;
+}
+
+.apresentacaoLinhaDoTempo ul li:nth-child(even):before {
+  content: "";
+  position: absolute;
+  top: 24px;
+  left: -4px;
+  width: 10px;
+  height: 10px;
+  background: var(--cor-terciaria);
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #D97302;
+}
+
+.apresentacaoLinhaDoTempo ul li h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 600;
+  color: #D97302;
+}
+.apresentacaoLinhaDoTempo ul li h4 {
+  color: #9C4A31;
+}
+.apresentacaoLinhaDoTempo ul li p {
+  margin: 10px 0 0;
+  padding: 0;
+  color: rgb(36, 33, 33);
+}
+
+.apresentacaoLinhaDoTempo ul li .tempo {
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+}
+
+.apresentacaoLinhaDoTempo ul li:nth-child(odd) .tempo {
+  position: absolute;
+  top: 12px;
+  right: -110px;
+  margin: 0;
+  padding: 8px 16px;
+  background: var(--cor-terciaria);
+  border-radius: 18px;
+}
+
+.apresentacaoLinhaDoTempo ul li:nth-child(even) .tempo {
+  position: absolute;
+  top: 12px;
+  left: -110px;
+  margin: 0;
+  padding: 8px 16px;
+  background: var(--cor-terciaria);
+  border-radius: 18px;
+}
+.h1historia{
+  color:black;
+}
+  /* Linha do tempo  */
+ #menu{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  
+ }
+ @media(max-width:600px){
+  .apresentacaoLinhaDoTempo{
+    display: none;
+    
+  }
+  .conteudo{
+    display: none;
+  }
+  .h1historia{
+    display: none;
+  }
+ }
+ .divmedia{}
+ .divmedia2{}
+ .h1ferramentas{}
+ .desaparecePcell{}
+ .aparecePcell{}
+
+ @media(max-width:540px){
+  .divmedia{ 
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+   .divmedia2 {
+    margin: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+   }
+   .desaparecePcell{
+    display: none;
+   }
+ }
+ @media(min-width:540px){
+ 
+   .aparecePcell{
+    display: none;
+   }
+ }
