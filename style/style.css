@@ -1,8 +1,10 @@
 body {
-    background: linear-gradient(90deg, #fcfcfc 0%, #9b9494 100%);
+    background: linear-gradient(90deg, #fcfcfc 0%, #D1E2C2 100%);
     padding: 0;
 }
-
+.bgNavbar{
+  background: linear-gradient(90deg, #D1E2C2 0%, #68A238 100%);
+}
 a {
     text-decoration: none;
     color: black;
@@ -22,7 +24,7 @@ h1 {
 }
 .cardhover:hover{
   transition:0.7s;
-  color: #fcfcfc;
+  color: #E0F7FF;
   background-color: black;
   text-decoration: none;
   font-size: 20px;
