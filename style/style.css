@@ -14,7 +14,9 @@ a {
     font-family: Andale Mono, monospace;
     font-size: 130%;
 }
-
+.bgTema{
+  background-color: #3D8700;
+}
 h1 {
     font-family: Jazz LET, fantasy;
 }

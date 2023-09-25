@@ -13,11 +13,12 @@ body {
 }
 .matheusDaCruz{
   Font-family: Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif;
+  color: aliceblue;
 }
 .matheusDaCruz:hover{
   font-size: 40px;
   transition: 0.7s;
-  color: #AD5F26;
+  color: blanchedalmond;
 }
 .corFraca{
     color:  rgb(36, 33, 33);
